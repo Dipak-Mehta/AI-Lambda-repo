@@ -8,19 +8,19 @@ output "api_gateway_endpoint" {
 }
 
 output "upload_lambda" {
-  value = module.lambda.upload_lambda
+  value = module.lambda.upload_lambda_arn
 }
 
 output "download_lambda" {
-  value = module.lambda.download_lambda
+  value = module.lambda.download_lambda_arn
 }
 
 output "fetch_lambda" {
-  value = module.lambda.fetch_lambda
+  value = module.lambda.fetch_lambda_arn
 }
 
 output "search_lambda" {
-  value = module.lambda.search_lambda
+  value = module.lambda.search_lambda_arn
 }
 
 output "upload_bucket" {
